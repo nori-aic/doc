@@ -10,7 +10,7 @@
 1.下記サイトの「Download」ボタンをクリックしてインストーラをダウンロードする。 +
 https://gitforwindows.org/ 
 
-image:images/git_0001.png[]
+image:images/git_0001.png?raw=true[]
 
 2.ダウンロードしたインストーラを実行する。 +
 image:images/git_0002.png[]

@@ -1,0 +1,87 @@
+= Git
+
+== Gitインストール(Windows10版)
+
+* Windows10 home
+* git version 2.30.0.2
+
+=== Gitインストール
+
+1.下記サイトの「Download」ボタンをクリックしてインストーラをダウンロードする。 +
+https://gitforwindows.org/ 
+
+image:images/git_0001.png[]
+
+2.ダウンロードしたインストーラを実行する。 +
+image:images/git_0002.png[]
+
+3.ライセンスに同意したら、「Next」ボタンをクリックする。 +
+image:images/git_0003.png[]
+
+4.「Next」ボタンをクリックする。 +
+image:images/git_0004.png[]
+
+5.「Next」ボタンをクリックする。 +
+image:images/git_0005.png[]
+
+6.「Next」ボタンをクリックする。 +
+image:images/git_0006.png[]
+
+7.使用するエディタを選択して「Next」ボタンをクリックする。 +
+(画像ではVSCodeを選択) +
+image:images/git_0007.png[]
+
+8.「Next」ボタンをクリックする。 +
+image:images/git_0008.png[]
+
+9.「Next」ボタンをクリックする。 +
+image:images/git_0009.png[]
+
+10.「Next」ボタンをクリックする。 +
+image:images/git_0010.png[]
+
+11.「Next」ボタンをクリックする。 +
+image:images/git_0011.png[]
+
+12.「Next」ボタンをクリックする。 +
+image:images/git_0012.png[]
+
+13.「Next」ボタンをクリックする。 +
+image:images/git_0013.png[]
+
+14.「Next」ボタンをクリックする。 +
+image:images/git_0014.png[]
+
+15.全てのチェックボックスにチェックして、「Next」ボタンをクリックする。 +
+image:images/git_0015.png[]
+
+16.「Install」ボタンをクリックする。 +
+image:images/git_0016.png[]
+
+17.「Finish」ボタンをクリックする。 +
+image:images/git_0017.png[]
+
+=== 初期設定
+
+1.Git Bashを起動する。 +
+image:images/git_0018.png[] +
+
+image:images/git_0019.png[]
+
+2.GitHubのユーザ名 or 他人から見て区別できるユーザ名を設定する。 +
+----
+$ git config --global user.name "JohnSmith"
+----
+
+3.メールアドレスを設定する。 +
+----
+$ git config --global user.email "john.smith@email.com"
+----
+
+4.設定内容を確認する。 +
+----
+$ git config --list
+----
+image:images/git_0020.png[]
+
+

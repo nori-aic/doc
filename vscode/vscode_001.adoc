@@ -1,0 +1,6 @@
+= vscode
+
+== 環境設定
+. 拡張機能でNeo Vimを入れる
+    →nvimをインストールする。
+        →Visual Studio 2019 のMicrosoft Visual C++ 再配布可能パッケージをインストールする。
